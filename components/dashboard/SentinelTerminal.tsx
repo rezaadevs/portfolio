@@ -4,10 +4,10 @@ import { useEffect, useState, useRef } from "react";
 import { cn } from "@/lib/utils";
 
 const INITIAL_LOGS = [
-    "[SENTINEL]: SYSTEM_INIT_COMPLETE",
-    "[SENTINEL]: MONITORING_PORT: 3000",
-    "[SENTINEL]: SECURE_Handshake: VERIFIED",
-    "[SENTINEL]: WAITING_FOR_OPERATOR_COMMAND..."
+    "[SYSTEM]: CORE_SERVICES_ONLINE",
+    "[MONITOR]: LATENCY_CHECK_PASSED",
+    "[DEPLOY]: LAST_BUILD_SUCCESS",
+    "[SYSTEM]: WAITING_FOR_NEW_PROJECTS..."
 ];
 
 export function SentinelTerminal() {
@@ -24,11 +24,11 @@ export function SentinelTerminal() {
     useEffect(() => {
         const interval = setInterval(() => {
             const heartbeats = [
-                "[SENTINEL]: HEARTBEAT_PING: OK",
-                "[SENTINEL]: SCANNING_NETWORK...",
-                "[SENTINEL]: TRAFFIC_NORMAL",
-                "[SENTINEL]: UPDATING_ENCRYPTION_KEYS",
-                "[SENTINEL]: RESOURCE_CHECK: OPTIMAL"
+                "[SYSTEM]: HEALTH_CHECK_OPTIMAL",
+                "[PYTHON]: ENVIRONMENT_READY",
+                "[JOB_QUEUE]: ACCEPTING_REQUESTS",
+                "[DATABASE]: INTEGRITY_VERIFIED",
+                "[NETWORK]: SECURE_CONNECTION_STABLE"
             ];
             const randomLog = heartbeats[Math.floor(Math.random() * heartbeats.length)];
             setLogs(prev => [...prev.slice(-15), `${randomLog}`]); // Keep last 15 logs

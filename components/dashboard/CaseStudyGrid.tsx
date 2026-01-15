@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 const CASES = [
     {
         id: "ALPHA",
-        title: "INTELLIGENCE_SCRAPER",
+        title: "ENTERPRISE DATA EXTRACTION ENGINE",
         desc: "Zero-dependency Python engine for high-velocity data extraction.",
         stats: ["<500ms LATENCY", "100% RELIABILITY"],
         icon: Database,
@@ -15,7 +15,7 @@ const CASES = [
     },
     {
         id: "BETA",
-        title: "DATA_SURGEON",
+        title: "AUTOMATED DATA CLEANING PIPELINE",
         desc: "Automated Excel/CSV sanitization protocol for messy datasets.",
         stats: ["10k ROWS/SEC", "AUTO-FORMATTING"],
         icon: Code,
@@ -24,7 +24,7 @@ const CASES = [
     },
     {
         id: "GAMMA",
-        title: "API_SENTINEL",
+        title: "REAL-TIME API MONITOR",
         desc: "Real-time Discord/Telegram monitoring bot with custom triggers.",
         stats: ["24/7 UPTIME", "WEBHOOK READY"],
         icon: Lock,

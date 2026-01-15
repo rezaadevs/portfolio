@@ -20,17 +20,17 @@ export default function Home() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
               </span>
-              AVAILABLE_FOR_DEPLOYMENT
+              AVAILABLE_FOR_HIRE
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-zinc-100">
-              High-Precision <br />
-              <span className="text-zinc-500">Python Automation Protocols.</span>
+              High-Performance <br />
+              <span className="text-zinc-500">Automation Systems.</span>
             </h1>
 
             <p className="text-lg text-zinc-400 max-w-2xl leading-relaxed">
-              We don't sell scripts; we deploy <span className="text-emerald-400 font-mono">Sovereign Engines</span>.
-              Specializing in zero-dependency web extraction, automated data surgery, and API integration.
+              We don't just sell scripts; we build <span className="text-emerald-400 font-mono">Enterprise Integration Systems</span>.
+              Specializing in custom Python scraping solutions, data pipelines, and API architecture.
             </p>
 
             <div className="flex flex-wrap gap-3 pt-2">
@@ -39,13 +39,13 @@ export default function Home() {
                 target="_blank"
                 className="flex items-center gap-2 bg-zinc-100 text-zinc-950 px-5 py-2.5 rounded-md font-bold text-sm hover:bg-emerald-400 transition-colors"
               >
-                INITIATE_HEIST <ArrowRight className="w-4 h-4" />
+                START_PROJECT <ArrowRight className="w-4 h-4" />
               </a>
               <a
                 href="mailto:rezaa.dev@proton.me"
                 className="flex items-center gap-2 bg-zinc-900 border border-zinc-800 text-zinc-300 px-5 py-2.5 rounded-md font-bold text-sm hover:border-zinc-700 hover:text-white transition-colors"
               >
-                SECURE_LINE <Mail className="w-4 h-4" />
+                VIEW_SERVICES <Mail className="w-4 h-4" />
               </a>
             </div>
           </section>
@@ -54,7 +54,7 @@ export default function Home() {
           <section>
             <div className="flex items-center gap-2 mb-4 text-xs font-mono text-zinc-500 tracking-widest">
               <span className="w-2 h-2 bg-zinc-800 rotate-45"></span>
-              DEPLOYED_ARSENAL
+              ENGINEERING_CASE_STUDIES
               <span className="flex-1 h-px bg-zinc-900"></span>
             </div>
             <CaseStudyGrid />
