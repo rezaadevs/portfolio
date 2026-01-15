@@ -42,7 +42,7 @@ export function MissionBriefModal({ isOpen, onClose, caseData }: MissionBriefMod
                         initial={{ opacity: 0, scale: 0.95, y: 20 }}
                         animate={{ opacity: 1, scale: 1, y: 0 }}
                         exit={{ opacity: 0, scale: 0.95, y: 20 }}
-                        className="fixed inset-0 md:inset-auto md:top-[10%] md:left-1/2 md:-translate-x-1/2 md:w-[800px] md:h-[600px] bg-zinc-950 border border-zinc-800 shadow-2xl z-[70] flex flex-col overflow-hidden md:rounded-lg"
+                        className="fixed inset-0 md:inset-auto md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:w-[800px] md:h-[600px] bg-zinc-950 border border-zinc-800 shadow-2xl z-[70] flex flex-col overflow-hidden md:rounded-lg"
                     >
                         {/* Header */}
                         <div className="flex items-center justify-between p-4 border-b border-zinc-800 bg-zinc-900/50">
