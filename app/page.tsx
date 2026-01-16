@@ -1,6 +1,7 @@
 import { CommandHeader } from "@/components/dashboard/CommandHeader";
 import { SentinelTerminal } from "@/components/dashboard/SentinelTerminal";
 import { CaseStudyGrid } from "@/components/dashboard/CaseStudyGrid";
+import { TechStackGrid } from "@/components/dashboard/TechStackGrid";
 import { ArrowRight, Mail } from "lucide-react";
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
       <main className="flex-1 p-4 lg:p-6 grid grid-cols-1 lg:grid-cols-12 gap-6 overflow-hidden max-h-[calc(100vh-3.5rem)]">
 
         {/* LEFT COLUMN: Mission & Arsenal (Scrollable) */}
-        <div className="lg:col-span-8 flex flex-col gap-8 overflow-y-auto pr-2 scrollbar-hide pb-20">
+        <div className="lg:col-span-8 flex flex-col gap-8 overflow-y-auto pr-2 scrollbar-hide pb-24 md:pb-32">
 
           {/* Hero Section */}
           <section className="space-y-4 pt-4">
@@ -58,6 +59,9 @@ export default function Home() {
               <span className="flex-1 h-px bg-zinc-900"></span>
             </div>
             <CaseStudyGrid />
+
+            {/* New Tech Stack Section */}
+            <TechStackGrid />
           </section>
 
         </div>
