@@ -9,10 +9,10 @@ export default function Home() {
     <div className="min-h-[100dvh] flex flex-col pt-14">
       <CommandHeader />
 
-      <main className="flex-1 p-4 lg:p-6 grid grid-cols-1 lg:grid-cols-12 gap-6 overflow-hidden max-h-[calc(100dvh-3.5rem)]">
+      <main className="flex-1 p-4 lg:p-6 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:overflow-hidden lg:max-h-[calc(100dvh-3.5rem)]">
 
         {/* LEFT COLUMN: Mission & Arsenal (Scrollable) */}
-        <div className="lg:col-span-8 flex flex-col gap-8 overflow-y-auto pr-2 scrollbar-hide pb-[150px]">
+        <div className="lg:col-span-8 flex flex-col gap-8 lg:overflow-y-auto pr-2 scrollbar-hide pb-[150px]">
 
           {/* Hero Section */}
           <section className="space-y-4 pt-4">
@@ -67,7 +67,7 @@ export default function Home() {
         </div>
 
         {/* RIGHT COLUMN: Sentinel Terminal (Sticky Desktop) */}
-        <div className="hidden lg:block lg:col-span-4 sticky top-0 max-h-[600px] self-start">
+        <div className="hidden lg:block lg:col-span-4 sticky top-0 h-full self-start">
           <SentinelTerminal />
         </div>
 
