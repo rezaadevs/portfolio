@@ -67,7 +67,7 @@ export default function Home() {
         </div>
 
         {/* RIGHT COLUMN: Sentinel Terminal (Sticky Desktop) */}
-        <div className="hidden lg:block lg:col-span-4 sticky top-0 h-full self-start">
+        <div className="hidden lg:block lg:col-span-4 sticky top-0 h-[450px] self-start">
           <SentinelTerminal />
         </div>
 
