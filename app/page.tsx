@@ -6,13 +6,13 @@ import { ArrowRight, Mail } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col pt-14">
+    <div className="min-h-[100dvh] flex flex-col pt-14">
       <CommandHeader />
 
-      <main className="flex-1 p-4 lg:p-6 grid grid-cols-1 lg:grid-cols-12 gap-6 overflow-hidden max-h-[calc(100vh-3.5rem)]">
+      <main className="flex-1 p-4 lg:p-6 grid grid-cols-1 lg:grid-cols-12 gap-6 overflow-hidden max-h-[calc(100dvh-3.5rem)]">
 
         {/* LEFT COLUMN: Mission & Arsenal (Scrollable) */}
-        <div className="lg:col-span-8 flex flex-col gap-8 overflow-y-auto pr-2 scrollbar-hide pb-24 md:pb-32">
+        <div className="lg:col-span-8 flex flex-col gap-8 overflow-y-auto pr-2 scrollbar-hide pb-[150px]">
 
           {/* Hero Section */}
           <section className="space-y-4 pt-4">
@@ -67,7 +67,7 @@ export default function Home() {
         </div>
 
         {/* RIGHT COLUMN: Sentinel Terminal (Sticky Desktop) */}
-        <div className="hidden lg:block lg:col-span-4 h-full sticky top-0">
+        <div className="hidden lg:block lg:col-span-4 sticky top-0 max-h-[600px] self-start">
           <SentinelTerminal />
         </div>
 
