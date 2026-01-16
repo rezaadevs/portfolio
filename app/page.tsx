@@ -46,7 +46,7 @@ export default function Home() {
                 href="mailto:rezaa.dev@proton.me"
                 className="flex items-center gap-2 bg-zinc-900 border border-zinc-800 text-zinc-300 px-5 py-2.5 rounded-md font-bold text-sm hover:border-zinc-700 hover:text-white transition-colors"
               >
-                VIEW_SERVICES <Mail className="w-4 h-4" />
+                CONTACT_ENGINEER <Mail className="w-4 h-4" />
               </a>
             </div>
           </section>
