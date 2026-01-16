@@ -29,7 +29,7 @@ export default function Home() {
               <span className="text-zinc-500">Automation Systems.</span>
             </h1>
 
-            <p className="text-lg text-zinc-400 max-w-2xl leading-relaxed">
+            <p className="text-lg text-zinc-400 max-w-3xl leading-relaxed">
               We don't just sell scripts; we build <span className="text-emerald-400 font-mono">Enterprise Integration Systems</span>.
               Specializing in custom Python scraping solutions, data pipelines, and API architecture.
             </p>
