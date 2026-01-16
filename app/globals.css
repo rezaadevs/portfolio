@@ -3,20 +3,26 @@
 @tailwind utilities;
 
 :root {
-  --background: #09090b; /* Zinc 950 */
-  --foreground: #e4e4e7; /* Zinc 200 */
-  
-  --card: #18181b; /* Zinc 900 */
+  --background: #09090b;
+  /* Zinc 950 */
+  --foreground: #e4e4e7;
+  /* Zinc 200 */
+
+  --card: #18181b;
+  /* Zinc 900 */
   --card-foreground: #e4e4e7;
 
-  --border: #27272a; /* Zinc 800 */
+  --border: #27272a;
+  /* Zinc 800 */
   --input: #27272a;
-  
-  --primary: #10b981; /* Emerald 500 */
+
+  --primary: #10b981;
+  /* Emerald 500 */
   --primary-foreground: #09090b;
 
   --muted: #27272a;
-  --muted-foreground: #a1a1aa; /* Zinc 400 */
+  --muted-foreground: #a1a1aa;
+  /* Zinc 400 */
 
   --accent: #27272a;
   --accent-foreground: #fafafa;
@@ -38,9 +44,19 @@
 
 /* Mobile Scroll Fix */
 @media (max-width: 768px) {
-  body, html {
+
+  body,
+  html {
     height: auto !important;
     overflow-y: auto !important;
   }
 }
 
+/* Tablet Landscape Fix */
+@media (min-width: 769px) and (max-width: 1280px) {
+  .app-wrapper {
+    max-width: 95% !important;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
