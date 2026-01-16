@@ -53,10 +53,15 @@
 }
 
 /* Tablet Landscape Fix */
-@media (min-width: 769px) and (max-width: 1280px) {
-  .app-wrapper {
-    max-width: 95% !important;
-    width: 100%;
-    margin: 0 auto;
+/* Tablet Landscape Fix (Nuclear Option) */
+@media (min-width: 768px) and (max-width: 1366px) {
+
+  .app-wrapper,
+  div[class*="max-w-[1500px]"] {
+    max-width: 95vw !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 }
