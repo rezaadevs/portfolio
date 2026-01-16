@@ -35,3 +35,12 @@
     @apply bg-zinc-950/80 backdrop-blur-md border border-[var(--border)];
   }
 }
+
+/* Mobile Scroll Fix */
+@media (max-width: 768px) {
+  body, html {
+    height: auto !important;
+    overflow-y: auto !important;
+  }
+}
+

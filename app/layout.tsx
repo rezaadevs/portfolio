@@ -27,7 +27,9 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${jetbrainsMono.variable} antialiased bg-background text-foreground font-sans`}
       >
-        {children}
+        <div className="max-w-[1600px] mx-auto min-h-screen relative flex flex-col">
+          {children}
+        </div>
       </body>
     </html>
   );
