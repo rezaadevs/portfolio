@@ -53,15 +53,5 @@
 }
 
 /* Tablet Landscape Fix */
-/* Tablet Landscape Fix (Nuclear Option) */
-@media (min-width: 768px) and (max-width: 1366px) {
-
-  .app-wrapper,
-  div[class*="max-w-[1500px]"] {
-    max-width: 95vw !important;
-    width: 100% !important;
-    margin: 0 auto !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-}
+/* Tablet Landscape Fix */
+/* Native Tailwind implementation in layout.tsx effectively handles this now */

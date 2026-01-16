@@ -43,7 +43,7 @@ export default function RootLayout({
           `}
         </Script>
 
-        <div className="app-wrapper max-w-[1500px] mx-auto min-h-screen relative flex flex-col">
+        <div className="app-wrapper w-full md:w-[95%] xl:w-full max-w-[1500px] mx-auto min-h-screen relative flex flex-col">
           {children}
         </div>
       </body>
